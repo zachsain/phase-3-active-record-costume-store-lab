@@ -9,3 +9,6 @@ task :console do
   # Open a Pry session
   Pry.start
 end
+
+
+# bundle exec rake db:create_migration NAME=create_costumes
